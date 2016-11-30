@@ -31,6 +31,10 @@ public class TreeItem<T> implements Iterable<TreeItem<T>> {
 		children.add(child);
 	}
 	
+	public boolean hasChildren() {
+		return !children.isEmpty();
+	}
+	
 	public void remove(TreeItem<T> child) {
 		child.setParent(null);
 		children.remove(child);
