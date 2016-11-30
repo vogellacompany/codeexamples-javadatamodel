@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.vogella.model.feature_1.0.0.qualifier.jar" id="com.vogella.model.feature" version="1.0.0.qualifier">
+      <category name="vogella_data_model"/>
+   </feature>
+   <category-def name="vogella_data_model" label="vogella data model"/>
+</site>
