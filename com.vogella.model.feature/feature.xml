@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.vogella.model.feature"
-      label="Feature"
+      label="vogella data model feature"
       version="1.0.0.qualifier"
       provider-name="VOGELLA">
 
