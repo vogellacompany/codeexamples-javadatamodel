@@ -1,4 +1,4 @@
-package com.vogella.model;
+package com.vogella.model.todo;
 
 public class Todo {
 

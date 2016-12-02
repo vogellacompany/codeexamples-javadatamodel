@@ -1,4 +1,4 @@
-package com.vogella.model;
+package com.vogella.model.tree;
 
 import java.util.ArrayList;
 import java.util.Iterator;

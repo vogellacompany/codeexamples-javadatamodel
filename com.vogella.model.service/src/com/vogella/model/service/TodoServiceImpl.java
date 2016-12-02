@@ -6,9 +6,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.osgi.service.component.annotations.Component;
 
-import com.vogella.model.Todo;
-import com.vogella.model.TodoService;
-import com.vogella.model.TreeItem;
+import com.vogella.model.todo.Todo;
+import com.vogella.model.todo.TodoService;
+import com.vogella.model.tree.TreeItem;
 
 @Component(service=TodoService.class)
 public class TodoServiceImpl implements TodoService{
