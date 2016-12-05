@@ -44,4 +44,9 @@ public class TreeItem<T> implements Iterable<TreeItem<T>> {
 	public Iterator<TreeItem<T>> iterator() {
 		return children.iterator();
 	}
+	
+	@Override
+	public String toString() {
+		return String.valueOf(getItem());
+	}
 }

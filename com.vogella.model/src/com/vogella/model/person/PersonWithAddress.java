@@ -25,5 +25,5 @@ public class PersonWithAddress extends Person {
 	public Address getAddress() {
 		return address;
 	}
-
+	
 }

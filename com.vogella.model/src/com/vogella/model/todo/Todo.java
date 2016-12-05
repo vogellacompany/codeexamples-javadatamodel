@@ -35,4 +35,9 @@ public class Todo {
 	public int getId() {
 		return id;
 	}
+	
+	@Override
+	public String toString() {
+		return getId() + " : " + getSummary();
+	}
 }

@@ -70,4 +70,9 @@ public class Person {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
+	
+	@Override
+	public String toString() {
+		return getFirstName() + " " + getLastName() + " " + getBirthday();
+	}
 }

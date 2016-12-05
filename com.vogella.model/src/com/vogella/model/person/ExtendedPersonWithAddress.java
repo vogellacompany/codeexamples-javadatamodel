@@ -96,5 +96,4 @@ public class ExtendedPersonWithAddress extends PersonWithAddress {
 	public void setFilename(String filename) {
 		this.filename = filename;
 	}
-
 }
