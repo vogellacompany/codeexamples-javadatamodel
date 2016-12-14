@@ -1,5 +1,6 @@
 package com.vogella.model.person;
 
+import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.Date;
 
@@ -29,6 +30,14 @@ public class Person {
 		this.gender = gender;
 		this.married = married;
 		this.birthday = birthday;
+	}
+
+	public void addPropertyChangeListener(PropertyChangeListener l) {
+		changeSupport.addPropertyChangeListener(l);
+	}
+
+	public void removePropertyChangeListener(PropertyChangeListener l) {
+		changeSupport.removePropertyChangeListener(l);
 	}
 
 	public int getId() {
